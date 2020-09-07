@@ -138,7 +138,7 @@ h6 {
     margin-left:auto;
     display:block;
     width: 80%;
-    padding:20px;
+    padding:0 0 0 20px;
 }
 
 .centerImg img {
@@ -156,7 +156,7 @@ h6 {
     display:block;
     max-width: 90%;
     max-height:800px;
-    padding:20px;
+    padding:0 0 0 20px;
 }
 
 .section {
