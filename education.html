@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="css/case.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+<nav>
+     <a href="index.html">
+        <img src="./Images/Emily Logo Black.png" height="80">    
+    </a>
+        <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+</nav>
+
+<div class="container-fluid">
+
+<div class="title">
+    <h1>Ed.gov</h1>
+</div>
+<img class="centerImgtop" src="./Images/Edu Home.png" onclick="image(event)"/>
+    <div class= "section">
+        <div class="row">
+            <div class="col-sm-2">
+            <h2>Overview</h2>
+        </div>
+        <div class="col-sm-10">
+            <h3>The current US Department of Education website provides an opulent source of information for users to browse. Although the website is a good source of information, users may be overwhelmed by the abundance of text on each page. To minimize the time wasted on trying to locate desired information, my team and I proposed to reorganize and recategorize the existing pages, simplifying streamlining the information provided on each page. 
+            </h3>
+            <h3>Our project goal was as follows:
+            </h3>
+            <h5>Redesign the US Department of Education website to provide a user-friendly navigation system that offered ease of use to users of all backgrounds, optimizing the time spent on the website by minimizing time wasted scrolling through nonessential information. 
+            </h5>
+
+        <div class="overviewList">
+            <div class="col-sm-4">
+                <h4>Deliverables</h4>
+                <li class="deliverables">- Heuristic Evalutions</li>
+                <li class="deliverables">- User Persona</li>
+                <li class="deliverables">- Style Guide</li>
+                <li class="deliverables">- Wireframes</li>
+                <li class="deliverables">- Final Prototype</li>
+            </div>
+        </div>
+            <div class="col-sm-6">
+                <h4>Methods</h4>
+                <h3 class="noPadding">Interviews, surveys, affinity mapping, competitor analyses, user testing, wireframing, prototyping</h3>
+                <br>
+                <h4>Tools</h4>
+                <h3 class="noPadding"> Quip, Mural, Figma, Adobe XD, Adobe Illustrator, Slack, Zoom</h3>
+            </div>
+        </div>
+    </div>
+
+
+<div class="scrollUp">
+    <a href="#"><i class="fas fa-chevron-up"></i></a> 
+</div>  
+<div class="viewNext">
+    <a class="clickNext" href="work.html">Back to Work</a>
+</div>
+
+
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/randem.doodles/"><i class="fab fa-instagram-square"></i> </a>
+        <a href="http://www.linkedin.com/in/emily-lin-1ab828131"><i class="fab fa-linkedin"></i> </a>
+        <a href="mailto:lin.emily.y@gmail.com"> <i class="fas fa-envelope-square"></i> </a>
+        <a href="tel:510-386-0352"><i class="fas fa-phone-square-alt"></i></a>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2020</p>
+    </div>    
+</footer>
+
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+
+<script>
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    function image(event)  {    
+        modal.style.display = "block";
+        modalImg.src = event.target.src;
+        captionText.innerHTML = event.target.alt;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+</body>
+</html>

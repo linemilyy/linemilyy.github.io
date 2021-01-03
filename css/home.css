@@ -126,16 +126,10 @@ h5 {
     margin-right:auto;
 }
 
-.seamlessIcon {
+.Icon {
     display:flex;
     flex-direction: column;
-    margin: 0 20px 0 20px;
-}
-
-.womanIcon {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 }
 
 .viewCase {
