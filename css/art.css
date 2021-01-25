@@ -308,7 +308,10 @@ footer {
 
 
 @media only screen and (max-width: 550px) {
-
+    .container-fluid {
+        width:90%;
+    }
+    
     .logo img {
         height:75px;
     }

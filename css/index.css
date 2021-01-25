@@ -206,6 +206,10 @@ footer {
         -o-background-size: cover;
     }
 
+    .container-fluid {
+        width:90%;
+    }
+    
     h1 {
         font-size: 50px;
     }
@@ -218,7 +222,6 @@ footer {
         font-family: 'Lora', serif;
         font-size: 26px;
         font-weight: 700;
-        color: #24607A; 
     }
 
     .section1 {

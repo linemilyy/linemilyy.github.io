@@ -514,7 +514,7 @@ footer {
 
 @media only screen and (max-width: 550px) {
     .container-fluid {
-        width:80%;
+        width:90%;
     }
     
     .logo img {
@@ -562,5 +562,37 @@ footer {
 
     .workIcon img {
         width:200px;
+    }
+
+    .centerImgtop1 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        width: 40%;
+        padding-top:20px;
+    }
+    
+    .centerImgtop {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 75%;
+        padding-top:20px;
+    }
+    
+    .centerImg {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 65%;
+    }
+    
+    .centerImgBlock1 {
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 65%;
     }
 }
