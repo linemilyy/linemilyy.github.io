@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Images/AboutBackground.png);
+    background-image: url(../Images/HomeBackground.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,10 +8,6 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.logo img {
-    height:90px;
 }
 
 nav {
@@ -61,93 +57,44 @@ nav ul:hover > li:hover {
     opacity: 1;
 }
 
+.container-fluid {
+    width:85%;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:650px;
+}
+
 h1 {
     font-family: 'Lora', serif;
-    font-size: 62px;
+    font-size: 64px;
     font-weight: 700;
-    color: #000000;
+    color:#575F82;
     line-height: 62px;
 }
 
 h2 {
-    font-family: 'Lora', serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 20px;
-    padding-right:10px;
-}
-
-h3 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 400;
-    color: #000000;
-    line-height: 20px;
-    padding-bottom:10px;
-}
-
-h4 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    font-weight:600;
     color:#000000;
-    padding-top:12px;
+    line-height: 42x;
 }
 
-h5 {
+.hilight {
     font-family: 'Lora', serif;
-    font-size: 18px;
-    font-weight: 500;
-    color:#24607A;
-    width:90%;
-    line-height:22px;
-    padding: 0 0 0 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color:#575F82;
 }
 
-h6 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: italic;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    padding: 0 0 0 20px;
-}
-
-.container-fluid {
-    width:65%;
-    padding: 0 10px 0 10px;
-}
-
-.col-sm-6 img {
+.section{
     width:100%;
-    height: auto;
 }
 
-.col-sm-8, .col-sm-12 {
+.col-sm-8 {
     padding-left: 0;
-}
-
-.section {
-    padding: 10px 0 10px 0;
-    margin-bottom:10px;
-}
-
-.section a{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    color: #000000;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.section a:visited{
-    color:#24607A;
-}
-
-.section a:hover {
-    color:#FFFCF8;
 }
 
 footer {
@@ -155,8 +102,6 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding:10px;
-    margin-top:20px;
 }
 
 .social {
@@ -175,8 +120,9 @@ footer {
     margin-left: 15px;
     margin-right: 15px;
     padding:0px;
+    text-align: center;
 }
-
+  
 .icon {
     width: 46px;
     height: 46px;
@@ -237,23 +183,47 @@ footer {
 .copyright {
     font-family: 'Lato', sans-serif;
     font-size: x-small;
-    color: #000000;
-    padding:10px;
-}
-
-@media only screen and (max-width: 2560px) {
-    .img3, .img4 {
-        display:none;
-    }
+    color:#000000;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .img3, .img4 {
-        display:block ;
+    .container-fluid {
+        height:550px;
     }
 }
 
 @media only screen and (max-width: 550px) {
+    body {
+        background-image: url(../Images/IphoneBackground.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color:#FFFCF8;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size:26px;
+    }
+
+    .hilight {
+        font-family: 'Lora', serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #24607A; 
+    }
+
+    .section1 {
+        width:100%;
+    }
 
     .logo img {
         height:75px;
@@ -263,14 +233,17 @@ footer {
         padding:20px 8px 8px 8px;
         font-size: 18px;
     }
-    
-    nav ul { 
+
+    nav ul{
         display:flex;
         float:right;
         margin-right:10px;
     }
 
-    h1 {
-        font-size: 50px;
+    .intro {
+        align-content: center;
+        padding-left:30px;
+        padding-right:30px;
+        top:5%;
     }
 }

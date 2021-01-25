@@ -1,13 +1,6 @@
 body {
-    background-image: url(../Images/AboutBackground.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color:#FFFCF8;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    padding: 0;
 }
 
 .logo img {
@@ -65,7 +58,7 @@ h1 {
     font-family: 'Lora', serif;
     font-size: 62px;
     font-weight: 700;
-    color: #000000;
+    color:#000000;
     line-height: 62px;
 }
 
@@ -73,8 +66,8 @@ h2 {
     font-family: 'Lora', serif;
     font-size: 26px;
     font-weight: 600;
-    color: #000000;
-    line-height: 20px;
+    color:#000000;
+    line-height: 28px;
     padding-right:10px;
 }
 
@@ -82,9 +75,8 @@ h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #000000;
+    color:#000000;
     line-height: 20px;
-    padding-bottom:10px;
 }
 
 h4 {
@@ -99,7 +91,7 @@ h5 {
     font-family: 'Lora', serif;
     font-size: 18px;
     font-weight: 500;
-    color:#24607A;
+    color:#575F82;
     width:90%;
     line-height:22px;
     padding: 0 0 0 20px;
@@ -110,44 +102,61 @@ h6 {
     font-style: italic;
     font-size: 14px;
     font-weight: 300;
-    color: #000000;
+    color:#000000;
     padding: 0 0 0 20px;
 }
 
 .container-fluid {
-    width:65%;
+    width:85%;
     padding: 0 10px 0 10px;
 }
 
-.col-sm-6 img {
-    width:100%;
-    height: auto;
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 10px;
 }
 
-.col-sm-8, .col-sm-12 {
-    padding-left: 0;
+.gridContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-.section {
-    padding: 10px 0 10px 0;
-    margin-bottom:10px;
+.galleryItem1 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
-.section a{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    color: #000000;
-    text-decoration: none;
-    font-size: 20px;
+.galleryItem2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 9;
 }
 
-.section a:visited{
-    color:#24607A;
+.galleryItem3 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
 }
 
-.section a:hover {
-    color:#FFFCF8;
+.galleryItem4 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.galleryItem5 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 9;
 }
 
 footer {
@@ -176,7 +185,7 @@ footer {
     margin-right: 15px;
     padding:0px;
 }
-
+  
 .icon {
     width: 46px;
     height: 46px;
@@ -237,21 +246,66 @@ footer {
 .copyright {
     font-family: 'Lato', sans-serif;
     font-size: x-small;
-    color: #000000;
+    color:#000000;
     padding:10px;
 }
 
-@media only screen and (max-width: 2560px) {
-    .img3, .img4 {
-        display:none;
-    }
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: scroll;
+    background-color: #303030;
+}
+  
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width:90%;
+    max-height:90%;
+}
+  
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #FFFCF9;
+    padding: 10px 0;
+    height: 150px;
 }
 
-@media only screen and (max-width: 1024px) {
-    .img3, .img4 {
-        display:block ;
-    }
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #FFFCF9;
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover, .close:focus {
+    color: #FFFCF9;
+    text-decoration: none;
+} 
+
 
 @media only screen and (max-width: 550px) {
 
