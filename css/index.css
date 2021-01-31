@@ -3,7 +3,6 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color:#FFFCF8;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -191,6 +190,16 @@ footer {
     .container-fluid {
         height:550px;
     }
+    body {
+        background-image: url(../Images/IpadBackground.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -199,17 +208,15 @@ footer {
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-color:#FFFCF8;
         background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
     }
-
     .container-fluid {
         width:90%;
     }
-    
+
     h1 {
         font-size: 50px;
     }
@@ -249,4 +256,5 @@ footer {
         padding-right:30px;
         top:5%;
     }
+
 }

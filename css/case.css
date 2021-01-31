@@ -3,7 +3,6 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color:#FFFCF8;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -510,21 +509,20 @@ footer {
         width:32%;
         margin-left:0px;
     }
-}
-
-@media only screen and (max-width: 550px) {
     body {
         background-image: url(../Images/IphoneBackground.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-color:#FFFCF8;
         background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
     }
     
+}
+
+@media only screen and (max-width: 550px) {
     .container-fluid {
         width:90%;
     }

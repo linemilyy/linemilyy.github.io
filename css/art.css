@@ -1,6 +1,12 @@
 body {
-    background-color:#FFFCF8;
-    padding: 0;
+    background-image: url(../Images/ContentBackground.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .logo img {
@@ -308,17 +314,6 @@ footer {
 
 
 @media only screen and (max-width: 550px) {
-    body {
-        background-image: url(../Images/IphoneBackground.png);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color:#FFFCF8;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
     .container-fluid {
         width:90%;
     }
