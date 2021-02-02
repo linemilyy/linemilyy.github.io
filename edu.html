@@ -14,45 +14,177 @@
 
 <body>
     
-    <nav>
-        <a href="index.html">
-            <img src="./Images/Logo303030.png" height="90">
-         </a>
-            <ul>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-     </nav>    
+<nav>
+    <a href="index.html">
+    <div class="logo">
+        <img src="./Images/Logo303030.png">
+    </a>
+        <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </div>
+</nav>     
 
 <div class="container-fluid">
     <div class="title">
-        <h1>Ed.gov</h1>
+        <h1>WomanInc</h1>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2 class="center">Coming Soon!</h2>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <img class="centerImgtop" src="./Images/EDUHome.png" onclick="image(event)"/>
+
+    <div class= "section"> <!--OVERVIEW-->
+        <h2>Overview</h2>
+        <h3>This project was done as part of our program, we were assigned to redesign a government website, revamping it to find solutions to the potential existing issues. My two team members and I redesigned the Ed.gov website, streamlining and updating icons to make the overall website more easily accessible to viewers.
+        </h3>
+        <div class="overviewList">
+            <div class="col-sm-6">
+                <h4>Deliverables</h4>
+                <li class="deliverables">- Redesigned Header Navigation</li>
+                <li class="deliverables">- Heuristic Evaluation</li>
+                <li class="deliverables">- Wireframes</li>
+                <li class="deliverables">- Final Prototype</li>
+            </div>
+            <div class="col-sm-6">
+                <h4>Methods</h4>
+                <h3 class="noPadding">Interviews, Surveys, Affinity Mapping, Heuristic Evaluations, Color Testing, User Testing, Wireframing, Prototyping</h3>
+                <h4>Tools</h4>
+                <h3 class="noPadding">Mural, Figma, Adobe XD, Adobe Illustrator, Zoom, Microsoft Powerpoint, Google Drive</h3>
+            </div>
+        </div>    
+    </div>
+
+    <div class= "section"> <!--INITIAL RESEARCH-->
+        <h2>Initial Research</h2>
+            <h3>To start off our brainstorm on how to redesign the Ed.gov webpage, we conducted a Heuristic Evaluation as a team, discussing with each other what we thought was most important to keep users engaged on our page. 
+            </h3>
+        <h6>Heuristic Evaluation</h6>
+        <img class="centerImg" src="./Images/EDUHeuristic.png" onclick="image(event)"/>    
+        <h3>We then individually clicked through the website and discussed our thoughts and ideas on how we could revamp the webpage. 
+        </h3>
+    </div>
+
+    <div class= "section"> <!--USER RESERACH-->
+        <h2>User Research</h2>
+            <h3>To start our research phase, my teammates and I came up with our main objective: 
+            </h3>
+            <h5>Test users of varying ages and different restrictions (i.e. language barriers, sight restrictions, color blindness) to see how they interact with the website while maintaining unique motivations. 
+            </h5>
+            <h3>Before our user tests, we created two proto personas to help us find the right demographic of people to base our research on.
+            </h3>
+            <h6>Proto Persona</h6>
+            <div class="centerImgBlock1">
+                <img class="centerImg2" src="Images/EDUUser1.png" onclick="image(event)"/>
+                <img class="centerImg2" src="Images/EDUUser2.png" onclick="image(event)"/>
+            </div>
+    </div>
+
+    <div class= "section"> <!--USER INSIGHT-->
+        <h2>User Insight</h2>
+        <h3>We asked our users to look for qualifying and relevant student loans and grants on the ed.gov website along with necessary contact information relating to these topics. 
+        </h3>
+        <h3>Overall, the takeaways from our user test were generally negative. Most users were overwhelmed by the amount of information on each page and had difficulty navigating through the website due to the inability to differentiate between sections on the home page. To categorize the comments from our user tests, we created an affinity diagram and discussed the main pain points from our research.        
+        </h3>
+        <h3>We decided to use our final takeaways to jumpstart our ideas on how to improve the overall user experience. These takeaways included:
+        </h3>
+            <li class="insightList">- Overwhelming amount of infoformation on each page</li>
+            <li class="insightList">- Lack of hierarchy throughout the website </li>
+            <li class="insightList">- Difficulty understanding text presented on each page</li>
+            <li class="insightList">- Multiple broken links</li>
+            <li class="insightList">- Confussing categorization</li>
+    </div>
+
+    <div class= "section"> <!--PROBLEM STATEMENT-->
+        <h2>Problem Statement</h2>
+        <h5> How might we optimize the current ed.gov website to provide users with an informative yet simple experience measured by the time spent on the website and amount of useful information taken from their visit?
+        </h5>
+    </div>
+
+    <div class= "section"> <!--IDEATION-->
+        <h2>Ideation</h2>
+            <h3>As we knew a large part of the current issue of the Ed.gov webpage was the lack of hierarchy and organization, we started off our ideation process with simple web page layouts and discussions on the navigation bar. As we sorted through the existing information and categories offered on the website, we were able to define specified categories to sort the information under. 
+            </h3>
+            <h3>As color and fonts are hand in hand with visual hierarchy, we also tested the colors on the current Ed.gov webpage to see how we could boost the visual hierarchy of the page.  
+            </h3>
+            <h6>Color Testing</h6>
+            <img class="centerImg" src="./Images/EDUColorTest.png" onclick="image(event)"/>
+        <h3>To fix the failed color test, we changed the text color from #78AE63 to #000000 and #1860AC against the #DAECF7 background color.
+        </h3>
+    </div>
+
+    <div class= "section"> <!--UI BRANDING-->
+        <h2>UI Branding</h2>
+        <h3>We wanted to keep a very sophisticated and regal image for the Ed.gov webpage so we chose a color scheme based on some research on existing university logos and color palettes. 
+        </h3>
+        <h3>As the navigation bar was an important emphasis we wanted to focus on in our redesign, we ran through a variety of potential options before our final decision. 
+        </h3>
+        <h6>Navigation Bar Prototypes</h6>
+        <img class="centerImg" src="./Images/EDUUIInteration.jpg" onclick="image(event)"/>
+    </div>
+
     <!--
-    <img class="centerImgtop" src="./Images/WMNHome.png" onclick="image(event)"/>
+    <div class= "section"> 
+        <h2>Lofi Prototype</h2>
+        <h3></h3>
+        <div class="centerImgBlock">
+            <img class="centerImgw" src="Images/EDUDesktopWireframe.png" onclick="image(event)"/>
+            <img class="centerImgd" src="Images/EDUMobileWireframe.png" onclick="image(event)"/>
+        </div>
+    </div>
 -->
 
+    <div class= "section"> <!--FINAL-->
+        <h2>Final Prototype</h2>
+        <h3>
+        </h3>
+        <h6>Desktop View</h6>
+        <div class="centerImgBlock">
+            <img class="centerImg3" src="./Images/EDUDesktop1.png" onclick="image(event)"/>
+            <img class="centerImg3" src="./Images/EDUDesktop2.png" onclick="image(event)"/>      
+            <img class="centerImg3" src="./Images/EDUDesktop3.png" onclick="image(event)"/>
+        </div>    
+        <h6>Mobile View</h6>
+        <div class="centerImgBlock">
+            <img class="centerImg3" src="./Images/EDUMobile1.png" onclick="image(event)"/>
+            <img class="centerImg3" src="./Images/EDUMobile2.png" onclick="image(event)"/>
+            <img class="centerImg3" src="./Images/EDUMobile3.png" onclick="image(event)"/>
+        </div>         
+    </div>
 
+    <div class= "section"> <!--COMPARISON-->
+        <h2>Redesign Comparison</h2>
+        <div class="centerImgBlock">
+            <img class="centerImg2" src="Images/EDUOriginal.png" onclick="image(event)"/>
+            <img class="centerImg2" src="Images/EDUDesktop2.png" onclick="image(event)"/>
+        </div>
+    </div>
+</div>
+
+<div class="bottomNav">
+    <ul>
+        <li class="bottomIcon">
+            <button class="border"><a href="#"><i class="fa fa-chevron-up"></i></button></a>
+        </li>
+    </ul>
+</div>  
+
+<div class="feature">      
+        <div class="workIcon">
+            <h4>Seamless</h4>
+            <div data-tilt>
+            <a href="seamless.html"><img src="./Images/SeamlessThumb.png"></a>
+            </div>
+            <a href="seamless.html">View Case Study</a>
+        </div>
+
+        <div class="workIcon">
+            <h4>WomanInc</h4>
+            <div data-tilt>
+            <a href="woman.html"><img src="./Images/WOMNThumb.png"></a>
+            </div>
+            <a href="womn.html">View Case Study</a>
+        </div>
+    </div>
 
 <footer>
     <div class="social">
