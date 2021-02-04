@@ -299,6 +299,8 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .bottomIcon .border {
@@ -333,12 +335,9 @@ h6 {
 }
 
 .fa-chevron-up {
-    color:red;
+    color:blue;
     font-size: 18px;
-    margin:0;
-    padding:0;
-    justify-content: center;
-    text-align: center;
+    vertical-align: middle;
 }
 
 .fa-chevron-up:hover {
@@ -393,7 +392,7 @@ footer {
 }
 
 .social {
-    display: table;
+    display: inline-block;
 }
   
 .social ul {
