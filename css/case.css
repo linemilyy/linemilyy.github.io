@@ -285,8 +285,9 @@ h6 {
 .bottomNav ul {
     text-align: center;
     padding:0px;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
   
 .bottomNav li {
@@ -301,6 +302,9 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .bottomIcon .border {
