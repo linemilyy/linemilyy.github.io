@@ -172,6 +172,15 @@ h6 {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    width: 90%;
+    margin-bottom: 10px;;
+}
+
+.centerImgs {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     width: 65%;
     box-shadow: 10px 10px 10px #A8ABB7;
     -moz-box-shadow: 10px 10px 10px #A8ABB7;
@@ -179,7 +188,7 @@ h6 {
     -khtml-box-shadow: 10px 10px 10px #A8ABB7;
 }
 
-.centerImgBlock1 {
+.centerImgBlocks {
     display: block;
     text-align: center;
     margin-right: auto;
@@ -199,7 +208,15 @@ h6 {
     width: 65%;
 }
 
-.centerImg img {
+.centerImg2 {
+    width:49.5%;
+    padding:0;
+    justify-content: center;
+}
+
+.centerImg3 {
+    width:32%;
+    padding:0;
     justify-content: center;
 }
 
@@ -211,17 +228,6 @@ h6 {
     -moz-box-shadow: 10px 10px 10px #A8ABB7;
     -webkit-box-shadow: 10px 10px 10px #A8ABB7;
     -khtml-box-shadow: 10px 10px 10px #A8ABB7;
-}
-.centerImg2 {
-    width:49.5%;
-    padding:0;
-    justify-content: center;
-}
-
-.centerImg3 {
-    width:32%;
-    padding:0;
-    justify-content: center;
 }
 
 .centerImgw {
@@ -390,6 +396,8 @@ footer {
     text-align: center;
     padding:0px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
   
 .social li {
@@ -583,7 +591,6 @@ footer {
         justify-content: center;
         margin-left:auto;
         margin-right:auto;
-        background-color: #D6D4D1;
         padding:10px;
     }
 
