@@ -285,9 +285,6 @@ h6 {
 .bottomNav ul {
     text-align: center;
     padding:0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
   
 .bottomNav li {
@@ -302,9 +299,6 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .bottomIcon .border {
@@ -338,12 +332,16 @@ h6 {
     opacity: 1;
 }
 
-.fa-chevron-up, .fa-chevron-right, .fa-chevron-left{
-    color:#000000;
+.fa-chevron-up {
+    color:red;
     font-size: 18px;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    text-align: center;
 }
 
-.fa-chevron-up:hover, .fa-chevron-right:hover, .fa-chevron-left:hover {
+.fa-chevron-up:hover {
     color: #FFFCF9;
     font-size: 18px;
 }
