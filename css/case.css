@@ -299,8 +299,8 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
-    vertical-align: middle;
-    display: inline-block;
+    top: 50%;
+    left: 50%;
 }
 
 .bottomIcon .border {
@@ -335,9 +335,8 @@ h6 {
 }
 
 .fa-chevron-up {
-    color:blue;
+    color:#000000;
     font-size: 18px;
-    vertical-align: middle;
 }
 
 .fa-chevron-up:hover {
@@ -387,8 +386,7 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding:10px;
-    margin-top:20px;
+    padding-top:40px;
 }
 
 .social {
@@ -412,6 +410,8 @@ footer {
 .icon {
     width: 46px;
     height: 46px;
+    top: 50%;
+    left: 50%;
 }
   
 .icon .border {
@@ -548,7 +548,7 @@ footer {
     
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 768px) {
     .container-fluid {
         width:90%;
     }

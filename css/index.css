@@ -62,7 +62,7 @@ nav ul:hover > li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:650px;
+    height:700px;
 }
 
 h1 {
@@ -186,9 +186,9 @@ footer {
     padding: 10px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1112px) {
     .container-fluid {
-        height:550px;
+        height:575px;
     }
     body {
         background-image: url(../Images/IpadBackground.png);
@@ -202,7 +202,21 @@ footer {
     }
 }
 
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width: 834px) {
+    body {
+        background-image: url(../Images/IpadMiniHomeBackground.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     body {
         background-image: url(../Images/IphoneBackground.png);
         background-position: center center;
