@@ -276,8 +276,6 @@ h6 {
 }
 
 .bottomNav {
-    display: table;
-    text-align: center;
     padding: 0 0 60px 0;
     margin:auto;
     text-align: center;
@@ -339,7 +337,7 @@ h6 {
 }
 
 .fa-chevron-up {
-    color:purple;
+    color:yellow;
     font-size: 18px;
 }
 
@@ -357,7 +355,7 @@ h6 {
     margin-left:auto;
     margin-right:auto;
     background-color: rgba(255, 252, 248, 0.4);
-    padding:20px 0 0 0;
+    padding:10px 0 20px 0;
 }
 
 .workIcon {
@@ -444,8 +442,6 @@ footer {
 .fa.fa-linkedin, .fa.fa-instagram, .fa.fa-phone,.fa.fa-envelope-o {
     font-size: 25px;
     color:#000000;
-    top: 50%;
-    left: 50%;
 }
 
 .fa.fa-linkedin:visited, .fa.fa-instagram:visited, .fa.fa-phone:visited,.fa.fa-envelope-o:visited {
@@ -549,7 +545,6 @@ footer {
         -moz-background-size: cover;
         -o-background-size: cover;
     }
-    
 }
 
 @media only screen and (max-width: 768px) {

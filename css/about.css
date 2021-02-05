@@ -258,9 +258,10 @@ footer {
     }
 }
 
+
 @media only screen and (max-width: 834px) {
     body {
-        background-image: url(../Images/IpadMiniHomeBackground.png);
+        background-image: url(../Images/IpadMiniAboutBackground.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
