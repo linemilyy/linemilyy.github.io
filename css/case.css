@@ -279,7 +279,6 @@ h6 {
     padding: 0 0 10px 0;
     margin:auto;
     text-align: center;
-    position: relative;
 }
   
 .bottomNav ul {
@@ -293,14 +292,13 @@ h6 {
     margin-left: 20px;
     margin-right: 20px;
     padding:0px;
-    text-align: center;
 }
 
 .bottomIcon {
     width: 32px;
     height: 32px;
-    display:flex;
-    justify-content: space-around;
+    display: inline-block;
+    vertical-align:middle;
 }
 
 .bottomIcon .border {
@@ -335,13 +333,13 @@ h6 {
 }
 
 .fa-chevron-up {
-    color:orange;
-    font-size: 18px;
+    color:green;
+    font-size: 16px;
 }
 
 .fa-chevron-up:hover {
     color: #FFFCF9;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .feature {
@@ -440,6 +438,8 @@ footer {
 .fa.fa-linkedin, .fa.fa-instagram, .fa.fa-phone,.fa.fa-envelope-o {
     font-size: 25px;
     color:#000000;
+    display: inline-block;
+    vertical-align:middle;
 }
 
 .fa.fa-linkedin:visited, .fa.fa-instagram:visited, .fa.fa-phone:visited,.fa.fa-envelope-o:visited {
