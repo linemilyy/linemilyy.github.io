@@ -299,8 +299,6 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
-    top: 50%;
-    left: 50%;
 }
 
 .bottomIcon .border {
@@ -335,8 +333,10 @@ h6 {
 }
 
 .fa-chevron-up {
-    color:#000000;
+    color:red;
     font-size: 18px;
+    top: 50%;
+    left: 50%;
 }
 
 .fa-chevron-up:hover {
@@ -410,8 +410,6 @@ footer {
 .icon {
     width: 46px;
     height: 46px;
-    top: 50%;
-    left: 50%;
 }
   
 .icon .border {
@@ -442,6 +440,8 @@ footer {
 .fa.fa-linkedin, .fa.fa-instagram, .fa.fa-phone,.fa.fa-envelope-o {
     font-size: 25px;
     color:#000000;
+    top: 50%;
+    left: 50%;
 }
 
 .fa.fa-linkedin:visited, .fa.fa-instagram:visited, .fa.fa-phone:visited,.fa.fa-envelope-o:visited {
