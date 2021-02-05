@@ -276,7 +276,7 @@ h6 {
 }
 
 .bottomNav {
-    padding: 0 0 60px 0;
+    padding: 0 0 10px 0;
     margin:auto;
     text-align: center;
     position: relative;
@@ -299,10 +299,8 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+    display:flex;
+    justify-content: space-around;
 }
 
 .bottomIcon .border {
@@ -337,7 +335,7 @@ h6 {
 }
 
 .fa-chevron-up {
-    color:yellow;
+    color:orange;
     font-size: 18px;
 }
 
