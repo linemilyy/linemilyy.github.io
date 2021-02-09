@@ -24,12 +24,17 @@
         </ul>
  </nav>
 
-<div class="container-fluid">
-    <h1>Resume</h1>
-        <img class="centerImg" src="./Images/Resume.png" onclick="image(event)"/>
-       
-        <a href="./Images/Emily Lin Resume.pdf" download="EmilyLinResume">Download</a>
-        
+ <div class="container-fluid">
+  <h1>Resume</h1>
+    <div class="resume">
+      <img class="centerImg2" src="./Images/Emily Lin Resume.jpg" onclick="image(event)"/>
+      <img class="centerImg2" src="./Images/Emily Lin Resume2.jpg" onclick="image(event)"/>
+    </div>
+    <div class="bottomNav">
+      <li class="bottomIcon">
+        <button class="border"><a href="./Images/Emily Lin Resume.pdf" target="blank"><i class="fa fa-download"></i></button></a>
+      </li>
+    </div>
 </div>
 
 <footer>
@@ -50,9 +55,32 @@
       </ul>
   </div>  
   <div class="copyright">
-          <p>Copyright © 2021 Emily Lin. All rights reserved.</p>
-  </div>
+    <p>Copyright © 2021 Emily Lin. All rights reserved.</p>
+</div>
 </footer>
 
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="img01">
+<div id="caption"></div>
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+function image(event)  {    
+modal.style.display = "block";
+modalImg.src = event.target.src;
+captionText.innerHTML = event.target.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function () {
+modal.style.display = "none";
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
 </body>
 </html>
