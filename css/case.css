@@ -350,7 +350,7 @@ h6 {
 }
 
 .fa-chevron-up, .fa.fa-download {
-    color:green;
+    color:purple;
     font-size: 18px;
 }
 
@@ -642,4 +642,18 @@ footer {
         margin-left: auto;
         width: 65%;
     }
+
+    .fa-chevron-up, .fa.fa-download {
+        color:purple;
+        font-size: 18px;
+        padding-right:2px;
+    }
+
+    .fa.fa-linkedin, .fa.fa-instagram, .fa.fa-phone,.fa.fa-envelope-o {
+        font-size: 22px;
+        color:teal;
+        padding:0;
+        padding-right:1px;
+    }
+
 }
