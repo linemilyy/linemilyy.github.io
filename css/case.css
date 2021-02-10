@@ -314,8 +314,6 @@ h6 {
 .bottomIcon {
     width: 32px;
     height: 32px;
-    display: inline-block;
-    vertical-align:middle;
 }
 
 .bottomIcon .border {
@@ -350,8 +348,12 @@ h6 {
 }
 
 .fa-chevron-up, .fa.fa-download {
-    color:#000000;
+    color:blue;
     font-size: 20px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa-chevron-up:hover, .fa.fa-download:hover {
@@ -454,9 +456,10 @@ footer {
   
 .fa.fa-linkedin, .fa.fa-instagram, .fa.fa-phone,.fa.fa-envelope-o {
     font-size: 25px;
-    color:#000000;
-    display: inline-block;
-    vertical-align:middle;
+    color:orange;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa.fa-linkedin:visited, .fa.fa-instagram:visited, .fa.fa-phone:visited,.fa.fa-envelope-o:visited {
